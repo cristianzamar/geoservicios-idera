@@ -1,0 +1,23 @@
+{
+  "name": "geoservicios-idera",
+  "version": "1.0.0",
+  "description": "Tabla de geoservicios para el sitio de IDERA",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "keywords": [
+    "idera",
+    "wms",
+    "wfs"
+  ],
+  "author": "Cristian Zamar (cristianzamar@gmail.com)",
+  "license": "ISC",
+  "dependencies": {
+    "isomorphic-unfetch": "^1.0.0",
+    "next": "^2.3.1",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4"
+  }
+}
