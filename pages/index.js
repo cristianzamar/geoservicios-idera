@@ -1,33 +1,34 @@
 import fetch from 'isomorphic-unfetch';
-import Table from '../components/Table'
+import Table from '../components/Table';
+import json from '../sources.json'
 
-const Index = (props) => (
-  
+// const Index = () => (
+export default () => (
   <div>
-
-      {
-        Object.keys(props.sources).map(
-          org => {
-
-            props.sources[org].map(
-            nodo => <p>{nodo.title}</p>
-            )}
-          )
-      }
-
+    <Table
+      titulo='Organismos Nacionales*'
+      columna1='Ministerio Nacional'
+      columna2='Organismo'
+      datos={ json }
+    >
+    </Table>
   </div>
 )
 
-Index.getInitialProps = async function() {
-  let data;
+// Index.getInitialProps = async function() {
+//   // let data;
+//
+//   console.log(json);
+//
+//   // data = await fetch(
+//   //   'https://raw.githubusercontent.com/cristianzamar/geoservicios-idera/master/sources.json')
+//   // .then(function(res) {
+//   //   return res.json()
+//   // })
+//
+// // console.log(data);
+//
+//   return { sources: json }
+// }
 
-  data = await fetch(
-    'https://raw.githubusercontent.com/cristianzamar/geoservicios-idera/master/sources.json')
-  .then(function(res) {
-    return res.json()
-  })
-
-  return { sources: data }
-}
-
-export default Index
+//export default Index
