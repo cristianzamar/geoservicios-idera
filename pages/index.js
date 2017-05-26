@@ -1,4 +1,3 @@
-import fetch from 'isomorphic-unfetch';
 import Table from '../components/Table';
 import json from '../sources.json'
 
