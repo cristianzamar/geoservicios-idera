@@ -13,10 +13,13 @@ export default ({ titulo, columna1, columna2, datos }) => (
         <tr style={{textAlign: "left"}}>
           <td className="Table_title_row">{ columna1 }</td>
           <td className="Table_title_row">{ columna2 }</td>
-          <td className="Table_title_row">URL de servicio WMS/WFS<br/>
+          <td className="Table_title_row">Mapa Interactivo</td>
+          <td className="Table_title_row">Geoservicios<br/>
             <span style={{fontSize: "10px"}}>(copiar enlace con botón derecho
               del mouse)</span>
           </td>
+          <td className="Table_title_row">Catálogo</td>
+          <td className="Table_title_row">Portal de datos abiertos</td>
         </tr>
         {
           //recorre nodos dentro del json
@@ -39,6 +42,11 @@ export default ({ titulo, columna1, columna2, datos }) => (
     <style jsx>{`
       table {
         width: 100%
+      }
+
+      p {
+        font-size: 10px;
+        font-style: italic;
       }
     `}</style>
   </div>
