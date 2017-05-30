@@ -14,12 +14,13 @@ export default ({superior, datos})  => {
       </td>
 
       <td className={ classTd }>{ datos.title }</td>
-      
+
       <td className={ classTd }>
         {
-          <a href={ datos.viewer } title="abrir link" target="_blank">
-            <i class="fa fa-map-o" aria-hidden="true"></i>
-          </a>
+          datos.viewer &&
+            <a href={ datos.viewer } title="abrir link" target="_blank">
+              <i class="fa fa-map-o" aria-hidden="true"></i>
+            </a>
         }
       </td>
 
@@ -31,17 +32,19 @@ export default ({superior, datos})  => {
 
       <td className={ classTd }>
         {
-          <a href={ datos.catalog } title="abrir link" target="_blank">
-            <i class="fa fa-database" aria-hidden="true"></i>
-          </a>
+          datos.catalog &&
+            <a href={ datos.catalog } title="abrir link" target="_blank">
+              <i class="fa fa-database" aria-hidden="true"></i>
+            </a>
         }
       </td>
 
       <td className={ classTd }>
         {
-          <a href={ datos.portal } title="abrir link" target="_blank">
-            <i class="fa fa-download" aria-hidden="true"></i>
-          </a>
+          datos.portal &&
+            <a href={ datos.portal } title="abrir link" target="_blank">
+              <i class="fa fa-download" aria-hidden="true"></i>
+            </a>
         }
       </td>
     </tr>
