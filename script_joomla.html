@@ -1,0 +1,21 @@
+
+
+<div id="tables-container"></div>
+
+<script type="text/javascript">
+  var tables;
+  //cargar contenido de app geoservicios
+  var xhr = new XMLHttpRequest();
+  xhr.open('GET', 'http://www.idera.gob.ar/nodos');
+  xhr.onload = function() {
+      if (xhr.status === 200) {
+          tables = xhr.responseText;
+      }
+      else {
+          tables = '<p>Falló la carga.  Status: ' + xhr.status + '</p>';
+      }
+      //insertar contenido en div
+      document.getElementById('tables-container').innerHTML = tables;
+  };
+  xhr.send();
+</script>
