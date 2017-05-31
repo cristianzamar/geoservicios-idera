@@ -1,13 +1,13 @@
 import Table from '../components/Table';
-import json from '../sources.json'
+import idenacional from '../data/ide-nacional.json'
 
 export default () => (
   <div>
     <Table
-      titulo='Organismos Nacionales*'
-      columna1='Ministerio Nacional'
-      columna2='Organismo'
-      datos={ json }
+      titulo='IDE de jurisdicción nacional'
+      columna1='Ministerio'
+      columna2='IDE'
+      datos={ idenacional }
     >
     </Table>
   </div>
