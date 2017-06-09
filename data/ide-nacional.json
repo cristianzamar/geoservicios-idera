@@ -10,5 +10,74 @@
       "viewer":"http://ide.agroindustria.gob.ar/visor/",
       "portal" : "https://datos.magyp.gob.ar/"
     }
+  ],
+  "Ministerio de Ambiente y Desarrollo Sustentable": [
+    {
+      "id": "ambiente",
+      "title": "IDE Ambiental",
+      "wms": "http://geo2.ambiente.gob.ar/geoserver/wms?",
+      "wfs": "http://geo2.ambiente.gob.ar/geoserver/wfs?",
+      "csw": "http://ide.agroindustria.gob.ar/geonetwork/srv/spa/catalogue/csw?",
+      "viewer":"http://mapas.ambiente.gob.ar/",
+    }
+  ],
+  "Ministerio de Ciencia, tecnología e Innovación Productiva": [
+      {
+        "id": "conae",
+        "title": "Geoportal CONAE",
+        "wms": "http://geoservicios.conae.gov.ar/geoserver/GeoServiciosCONAE/wms?",
+        "viewer":"http://geoportal.conae.gov.ar/geoexplorer/composer/"
+      },
+      {
+        "id": "conae_cenizas",
+        "title": "CENIZAS (NPP y MODIS)",
+        "wms": "http://geoservicios.conae.gov.ar/geoserver/Cenizas/wms?"
+      },
+      {
+        "id": "conae_landsat8",
+        "title": "Landsat8 - CONAE",
+        "wms": "http://geoservicios.conae.gov.ar/geoserver/Landsat8/wms?"
+      },
+      {
+        "id": "conae_modis",
+        "title": "SMN: Productos MODIS Valor Agregado",
+        "wms": "http://geoservicios.conae.gov.ar/geoserver/SMN/wms?"
+      },
+      {
+        "id": "conae_focos",
+        "title": "Focos de Calor (MODIS) - CONAE",
+        "wms": "http://focosdecalor.conae.gov.ar/geoserver/FocosDeCalor/wms?"
+      },
+      {
+        "id": "conae_caearte",
+        "title": "CAEARTE",
+        "wms": "http://dengue.caearte.conae.gov.ar/geoserver/wms?",
+        "wfs": "http://dengue.caearte.conae.gov.ar/geoserver/wfs",
+        "viewer":"http://dengue.caearte.conae.gov.ar/geoexplorer/composer/"
+      },
+      {
+        "id": "conae_ambiente",
+        "title": "Ambiente - CONAE",
+        "wms": "http://ambiente.caearte.conae.gov.ar/geoserver/wms?",
+      }
+    ],
+  "Ministerio de Defensa": [
+    {
+      "id": "ign",
+      "title": "Instituto Geografico Nacional",
+      "wms": "http://wms.ign.gob.ar/geoserver/wms?",
+      "wfs": "ms.ign.gob.ar/geoserver/wms?",
+      "viewer":"https://ide.ign.gob.ar/portal/home/",
+      "portal" : "http://www.ign.gob.ar/content/datos-abiertos"
+    }
+  ],
+  "Ministerio de Interior, Obras Públicas y Vivienda": [
+    {
+      "id": "plan_terri",
+      "title": "Planificación  Territorial",
+      "wms": "http://sig.planificacion.gob.ar/layers/public_wxs/",
+      "wfs": "http://sig.planificacion.gob.ar/layers/public_wxs/",
+      "viewer":"http://sig.planificacion.gob.ar/maps/visor/",
+    }
   ]
 }

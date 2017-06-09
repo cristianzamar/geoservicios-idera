@@ -1,0 +1,93 @@
+{
+  "Jefatura de Gabinete de Ministros": [
+    {
+      "id": "enargas",
+      "title": "Ente Nacional Regulador del Gas (ENARGAS)",
+      "viewer":"http://www.enargas.gov.ar/GIS/Apps/Mapa_Interactivo_ENARGAS_V1.0/ext/",
+    }
+  ],
+  "Ministerio de Agroindustria": [
+    {
+      "id": "inta",
+      "title": "GeoINTA - Instituto Nacional de Tecnología Agropecuaria",
+      "wms": "http://geointa.inta.gov.ar/geoserver/wms?",
+      "wfs": "http://geointa.inta.gov.ar/geoserver/wfs?",
+      "viewer":"http://visor.geointa.inta.gob.ar",
+    },
+    {
+      "id": "senasa",
+      "title": "SENASA - Geoportal DNPV",
+      "wms": "https://geonode.senasa.gov.ar/geoserver/wms?",
+      "wfs": "https://geonode.senasa.gov.ar/geoserver/wfs?",
+      "csw": "https://geonode.senasa.gov.ar/catalogue/csw?",
+      "catalog":"https://geonode.senasa.gov.ar/search/form/",
+      "viewer":"https://geonode.senasa.gov.ar/",
+    }
+  ],
+  "Ministerio de Ambiente y Desarrollo Sustentable": [
+    {
+      "id": "glaciares",
+      "title": "Inventario Nacional de Glaciares",
+      "wms": "http://www.glaciaresargentinos.gob.ar:8080/geoserver/wms?",
+      "wfs": "http://www.glaciaresargentinos.gob.ar:8080/geoserver/wfs?",
+      "csw": "http://ide.agroindustria.gob.ar/geonetwork/srv/spa/catalogue/csw?",
+      "viewer":"http://www.glaciaresargentinos.gob.ar/mapas/",
+    },
+  ],
+  "Ministerio de Cultura": [
+    {
+      "id": "sinca",
+      "title": "Sistema de Información Cultural de la República Argentina",
+      "viewer":"http://www.sinca.gob.ar/sic/mapa/",
+    }
+  ],
+  "Ministerio de Educación y Deportes": [
+    {
+      "id": "mapa_edu",
+      "title": "Mapa Educativo",
+      "wms": "http://mapa.educacion.gob.ar/geoserver/ogc/wms?",
+      "wfs": "http://mapa.educacion.gob.ar/geoserver/ogc/wfs?",
+      "csw": "http://ide.agroindustria.gob.ar/geonetwork/srv/spa/catalogue/csw?",
+      "catalog":"http://ide.agroindustria.gob.ar/geonetwork/",
+      "viewer":"http://mapa.educacion.gob.ar/mapas/educacion/localizar/",
+      "portal" : "https://datos.magyp.gob.ar/"
+    }
+  ],
+  "Ministerio de Energía y Minería": [
+    {
+      "id": "energia",
+      "title": "Información Geográfica - Energía",
+      "wms": "http://sig.se.gob.ar/wmsenergia?",
+      "csw": "http://ide.se.gov.ar/geonetwork/srv/spa/csw?",
+      "catalog":"http://ide.se.gov.ar/geonetwork/",
+      "viewer":"http://sig.se.gob.ar/visor/visorsig.php",
+      "portal" : "http://datos.minem.gob.ar/"
+    },
+    {
+      "id": "segemar",
+      "title": "SIG SEGEMAR",
+      "wms": "http://sig.segemar.gov.ar/wms?",
+      "viewer":"http://sig.segemar.gov.ar"
+    }
+  ],
+  "Ministerio de Hacienda y Finanzas Públicas": [
+    {
+      "id": "indec",
+      "title": "Geoservicios INDEC",
+      "wms": "http://geoservicios.indec.gov.ar/geoserver/wms?",
+      "wfs": "http://geoservicios.indec.gov.ar/geoserver/wfs?",
+      "viewer":"http://www.indec.gob.ar/nivel2_default.asp?seccion=T&id_tema=1",
+    }
+  ],
+  "Presidencia de la Nación": [
+    {
+      "id": "sedronar",
+      "title": "Dirección de Geo-Referenciamiento y Estadística",
+      "wms": "http://mapa.sedronar.gov.ar/geoserver/wms?",
+      "wfs": "http://mapa.sedronar.gov.ar/geoserver/wfs?",
+      "csw": "http://mapa.sedronar.gov.ar/catalogue/csw?",
+      "catalog":"http://mapa.sedronar.gov.ar/catalogue",
+      "viewer":"http://mapainteractivo.sedronar.gov.ar/",
+    }
+  ]
+}
