@@ -41,16 +41,22 @@
       "viewer":"http://www.sinca.gob.ar/sic/mapa/",
     }
   ],
+  "Ministerio de Defensa": [
+    {
+      "id": "bahra",
+      "title": "BAHRA",
+      "wms": "http://wms.ign.gob.ar/geoserver/idera/bahra/wms?",
+      "wfs": "http://wms.ign.gob.ar/geoserver/idera/bahra/wfs?",
+      "viewer":"www.bahra.gob.ar/mapa/",
+    }
+  ],
   "Ministerio de Educación y Deportes": [
     {
       "id": "mapa_edu",
       "title": "Mapa Educativo",
       "wms": "http://mapa.educacion.gob.ar/geoserver/ogc/wms?",
       "wfs": "http://mapa.educacion.gob.ar/geoserver/ogc/wfs?",
-      "csw": "http://ide.agroindustria.gob.ar/geonetwork/srv/spa/catalogue/csw?",
-      "catalog":"http://ide.agroindustria.gob.ar/geonetwork/",
       "viewer":"http://mapa.educacion.gob.ar/mapas/educacion/localizar/",
-      "portal" : "https://datos.magyp.gob.ar/"
     }
   ],
   "Ministerio de Energía y Minería": [
