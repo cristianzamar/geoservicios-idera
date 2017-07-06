@@ -19,7 +19,7 @@ export default ({superior, datos})  => {
         {
           datos.viewer &&
             <a href={ datos.viewer } title="abrir link" target="_blank">
-              <i class="fa fa-map-o" aria-hidden="true"></i>
+              <i className="fa fa-map-o" aria-hidden="true"></i>
             </a>
         }
       </td>
@@ -34,7 +34,7 @@ export default ({superior, datos})  => {
         {
           datos.catalog &&
             <a href={ datos.catalog } title="abrir link" target="_blank">
-              <i class="fa fa-database" aria-hidden="true"></i>
+              <i className="fa fa-database" aria-hidden="true"></i>
             </a>
         }
       </td>
@@ -43,7 +43,7 @@ export default ({superior, datos})  => {
         {
           datos.portal &&
             <a href={ datos.portal } title="abrir link" target="_blank">
-              <i class="fa fa-download" aria-hidden="true"></i>
+              <i className="fa fa-download" aria-hidden="true"></i>
             </a>
         }
       </td>
