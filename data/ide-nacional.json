@@ -18,7 +18,7 @@
       "wms": "http://geo2.ambiente.gob.ar/geoserver/wms?",
       "wfs": "http://geo2.ambiente.gob.ar/geoserver/wfs?",
       "csw": "http://ide.agroindustria.gob.ar/geonetwork/srv/spa/catalogue/csw?",
-      "viewer":"http://mapas.ambiente.gob.ar/",
+      "viewer":"http://mapas.ambiente.gob.ar/"
     }
   ],
   "Ministerio de Ciencia, tecnología e Innovación Productiva": [
@@ -58,7 +58,7 @@
       {
         "id": "conae_ambiente",
         "title": "Ambiente - CONAE",
-        "wms": "http://ambiente.caearte.conae.gov.ar/geoserver/wms?",
+        "wms": "http://ambiente.caearte.conae.gov.ar/geoserver/wms?"
       }
     ],
   "Ministerio de Defensa": [
@@ -77,7 +77,7 @@
       "title": "Planificación  Territorial",
       "wms": "http://sig.planificacion.gob.ar/layers/public_wxs/",
       "wfs": "http://sig.planificacion.gob.ar/layers/public_wxs/",
-      "viewer":"http://sig.planificacion.gob.ar/maps/visor/",
+      "viewer":"http://sig.planificacion.gob.ar/maps/visor/"
     }
   ]
 }
