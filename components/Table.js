@@ -5,7 +5,7 @@ export default ({ titulo, columna1, columna2, datos }) => (
     <table>
       <thead>
         <tr>
-          <td className="Table_titular" colSpan="3">{ titulo }</td>
+          <td className="Table_titular" colSpan="6">{ titulo }</td>
         </tr>
       </thead>
 
