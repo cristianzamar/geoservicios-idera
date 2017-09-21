@@ -1,14 +1,19 @@
 import Table from '../components/Table';
-import idenacional from '../data/ide-nacional.json'
+import geoservicios from '../data/sources.min.json'
 
 export default () => (
+
   <div>
+  {
+  Object.keys(geoservicios).map( nivel => (
     <Table
-      titulo='IDE de jurisdicción nacional'
+      titulo={nivel}
       columna1='Ministerio'
       columna2='IDE'
-      datos={ idenacional }
+      datos={geoservicios[nivel]}
     >
     </Table>
+  ))
+}
   </div>
 )

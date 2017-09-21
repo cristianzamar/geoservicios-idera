@@ -1,6 +1,7 @@
 import RowNodo from './RowNodo'
 
 export default ({ titulo, columna1, columna2, datos }) => (
+
   <div>
     <table>
       <thead>
@@ -22,12 +23,26 @@ export default ({ titulo, columna1, columna2, datos }) => (
           <td className="Table_title_row">Portal de datos abiertos</td>
         </tr>
         {
+
           //recorre nodos dentro del json
           Object.keys(datos).map( org => (
-            datos[org].map( nodo =>
-              <RowNodo superior={org} datos={nodo} />
-            )
-          ))
+            //console.log(Object.keys(datos)),
+            //console.log("ORG>" + datos[org].titulo),
+            //console.log(Object.keys(datos[org])),
+            //console.log(datos[org].nodos),
+            //console.log(Object.keys(datos[org].nodos)),
+            Object.keys(datos[org].nodos).map( mini =>
+              //  console.log( datos[org].nodos[mini]),
+
+            //console.log(Object.keys(datos[org])),
+          //    mini.map( nodo =>
+
+            //  org[nodo].map( nodito =>
+
+              <RowNodo superior={datos[org].titulo} datos={datos[org].nodos[mini]} />
+            //)
+        )
+                  ))
         }
         <tr><td className="pie_tabla" colSpan="3">IDERA</td></tr>
       </tbody>

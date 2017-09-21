@@ -2,7 +2,8 @@ let ultSuperior;
 let classTd;
 
 export default ({superior, datos})  => {
-
+  //console.log(datos);
+  console.log(superior);
   //cambia estilo al cambiar el organismo superior
   ultSuperior !== superior &&
     (classTd = classTd ==='filas_oscuras' ? 'filas_claras' : 'filas_oscuras');
